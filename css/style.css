@@ -1,0 +1,38 @@
+
+body {
+    font-family: sans-serif;
+    background-image: url('../img/fondopaginas.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    border: 5px groove #ffffff;
+    background-image: url(../img/fondopaginas1.jpg);
+    width: 900px;
+    height: 400px;
+    margin: 5em auto;
+}
+
+div {
+    
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: .5em;
+    text-align: center;
+    background-color: #b90115;
+}
+
+.posi {
+    position: relative;
+    top: 50%;
+    transform: translatey(-90%);
+}
+
+
+
+
