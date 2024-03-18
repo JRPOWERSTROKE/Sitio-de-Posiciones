@@ -14,14 +14,26 @@ h1 {
 }
 
 .boton {
-    background-color: #ffffff;
-    font-size: 20px;
-    padding: 10px;
-    margin: 4% 
+    color: #FFF;
+        border: 2px solid rgb(34, 2, 216);
+        border-radius: 0px;
+        padding: 10px 36px;
+        display: inline-block;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 rgb(34, 2, 216);
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+        margin-left: 10px;
+        margin-top: 10px;
 }
 
 .boton:hover {
-    
+    box-shadow: inset 400px 0 0 0 #1002d8;
 }
 
 .sect1 {
